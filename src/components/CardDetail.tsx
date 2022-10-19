@@ -110,8 +110,6 @@ const styles = StyleSheet.create({
   textItem: {
     flex: 1,
     paddingVertical: 10,
-    borderColor: 'rgba(255, 255, 255, 0.1)',
-    borderBottomWidth: 1,
     textAlignVertical: 'center',
   },
   text: {

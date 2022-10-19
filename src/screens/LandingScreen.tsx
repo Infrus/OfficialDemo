@@ -12,7 +12,7 @@ const LandingScreen = () => {
     no: number
     maybe: number
   }>({ yes: 0, no: 0, maybe: 0 })
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(true)
   const [swipesLeft, setSwipesLeft] = useState(3)
 
   const closeInstructions = useCallback(() => {

@@ -8,11 +8,19 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "format": "yarn run prettier --check ./src"
+    "format": "yarn run prettier --check ./src",
+    "clean": "cd android && ./gradlew clean"
   },
   "dependencies": {
+    "@react-native-community/blur": "^4.2.0",
     "react": "18.1.0",
-    "react-native": "0.70.2"
+    "react-native": "0.70.2",
+    "react-native-gesture-handler": "^2.7.0",
+    "react-native-linear-gradient": "^2.6.2",
+    "react-native-reanimated": "^2.10.0",
+    "react-native-redash": "^18.1.0",
+    "react-native-svg": "^13.3.0",
+    "react-native-vector-icons": "^9.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -20,6 +28,7 @@
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^26.0.23",
     "@types/react-native": "^0.70.4",
+    "@types/react-native-vector-icons": "^6.4.12",
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
